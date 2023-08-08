@@ -54,6 +54,7 @@ table {
 .container{
     display: flex;
 }
+
 .content{
     display: flex;
     margin-bottom: 24px;
@@ -67,18 +68,18 @@ table {
     font-size: 20px;
     line-height: 1.2;
 }
+img{
+    vertical-align: middle;
+}
 p{
     font-size: 16px;
     line-height: 1.5;
 }
-img{
-    vertical-align: middle;
-}
 .footer{
-    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    height: 120px;
     background-color: black;
+    color: white;
 }
